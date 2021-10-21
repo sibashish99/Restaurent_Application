@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "fsafgvasf",
+      "address": "qqq",
+      "phone": "",
+      "email": "sdfaf@gmail.com",
+      "services": "qs",
+      "mobile": 646461616164
+    },
+    {
+      "id": 3,
+      "name": "fsafgvasf1",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "phone": "",
+      "email": "sdfaf@gmail.com",
+      "services": "abc ancb",
+      "mobile": 1646463163
+    },
+    {
+      "id": 4,
+      "name": "arayan hotel",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "phone": "",
+      "email": "aryan@eboyo.com",
+      "services": "snaks and food and meals",
+      "mobile": 8978452125
+    },
+    {
+      "id": 5,
+      "name": "Gulzar",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "phone": "",
+      "email": "gulzar@eboyo.com",
+      "services": "snaks",
+      "mobile": 89745621233
+    },
+    {
+      "id": 6,
+      "name": "Selection",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "phone": "",
+      "email": "selection@eboye.com",
+      "services": "chai , snaks etc",
+      "mobile": 6496961364
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
