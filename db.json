@@ -1,76 +1,20 @@
 {
   "posts": [
     {
-      "id": 4,
-      "name": "arayan hotel1",
+      "id": 1,
+      "name": "arayan hotel 1",
       "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "phone": "",
-      "email": "aryan@eboyo.com",
-      "services": "snaks and food and meals",
-      "mobile": 8978452125
-    },
-    {
-      "id": 5,
-      "name": "Gulzar",
-      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA1",
-      "phone": "",
-      "email": "gulzar@eboyo.com",
-      "services": "snaks",
-      "mobile": 897456212331
-    },
-    {
-      "id": 6,
-      "name": "Selection",
-      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "phone": "",
-      "email": "selection@eboye.com",
-      "services": "chai , snaks etc",
-      "mobile": 6496961364
-    },
-    {
-      "id": 7,
-      "name": "YOURS KITCHEN",
-      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "phone": "",
-      "email": "yourskitchen@eboyo.com",
-      "services": "chai . snaks",
-      "mobile": 67926941346
-    },
-    {
-      "id": 8,
-      "name": "Nirmala",
-      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "phone": "",
-      "email": "nirmala@eboyo.com",
-      "services": "chai, coffee",
-      "mobile": 8954745662
-    },
-    {
-      "id": 9,
-      "name": "Angular",
-      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "phone": "",
       "email": "sdfaf@gmail.com",
-      "services": "sdfaf@gmail.com",
-      "mobile": 136496463163
+      "services": "chai , samosa",
+      "mobile": 7845581125
     },
     {
-      "id": 10,
-      "name": "react",
+      "id": 2,
+      "name": "selection",
       "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "phone": "",
-      "email": "sdfaf@gmail.com",
-      "services": "sdfaf@gmail.com",
-      "mobile": 9646413141
-    },
-    {
-      "id": 11,
-      "name": "new res",
-      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "phone": "",
-      "email": "sdfaf@gmail.com",
-      "services": "sdfwsf",
-      "mobile": 3191646494
+      "email": "selection@abc.com",
+      "services": "chai",
+      "mobile": 78941252511
     }
   ],
   "comments": [],

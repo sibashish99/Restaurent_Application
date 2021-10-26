@@ -3,7 +3,7 @@
    <div class="container-fluid">
      <h2>Restaurent Record App</h2>
      <div class="d-flex">
-      <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Restaurent</button>
+      <button (click)="clickAddResto()" class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Restaurent</button>
      </div>
    </div>
 </nav>
@@ -78,8 +78,8 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="clear">Close</button>
-          <button type="button" class="btn btn-primary" (click)="addRestaurent()">Add Details</button>
-          <button type="button" class="btn btn-primary" (click)="updateResto()">Update</button>
+          <button *ngIf="showAdd" type="button" class="btn btn-primary" (click)="addRestaurent()">Add Details</button>
+          <button *ngIf="showBtn" type="button" class="btn btn-primary" (click)="updateResto()">Update</button>
         </div>
       </div>
     </div>

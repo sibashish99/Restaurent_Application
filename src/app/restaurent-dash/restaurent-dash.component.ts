@@ -14,6 +14,9 @@ export class RestaurentDashComponent implements OnInit {
   formValue!:FormGroup
   restaurentModelObj : RestaurentData = new RestaurentData;
   allRestaurentData: any;
+  showAdd!:boolean;
+  showBtn!:boolean;
+
   constructor(private formbuilder: FormBuilder, private api:ApiService) { }
 
   ngOnInit(): void {
@@ -25,6 +28,11 @@ export class RestaurentDashComponent implements OnInit {
       services: [''],
     })
     this.getAllData();
+  }
+  clickAddResto(){
+    this.formValue.reset();
+    this.showAdd = true;
+    this.showBtn = false;
   }
  
   addRestaurent(){
@@ -67,12 +75,17 @@ export class RestaurentDashComponent implements OnInit {
   }
 
   onEditResto(data: any){
+    this.showAdd = false;
+    this.showBtn = true;
+    
     this.restaurentModelObj.id = data.id;
     this.formValue.controls['name'].setValue(data.name);
     this.formValue.controls['email'].setValue(data.email);
     this.formValue.controls['mobile'].setValue(data.mobile);
     this.formValue.controls['address'].setValue(data.address);
     this.formValue.controls['services'].setValue(data.services);
+
+ 
   }
   updateResto(){
     this.restaurentModelObj.name = this.formValue.value.name;
