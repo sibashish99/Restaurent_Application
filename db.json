@@ -1,31 +1,8 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2,
-      "name": "fsafgvasf",
-      "address": "qqq",
-      "phone": "",
-      "email": "sdfaf@gmail.com",
-      "services": "qs",
-      "mobile": 646461616164
-    },
-    {
-      "id": 3,
-      "name": "fsafgvasf1",
-      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
-      "phone": "",
-      "email": "sdfaf@gmail.com",
-      "services": "abc ancb",
-      "mobile": 1646463163
-    },
-    {
       "id": 4,
-      "name": "arayan hotel",
+      "name": "arayan hotel1",
       "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
       "phone": "",
       "email": "aryan@eboyo.com",
@@ -35,11 +12,11 @@
     {
       "id": 5,
       "name": "Gulzar",
-      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA1",
       "phone": "",
       "email": "gulzar@eboyo.com",
       "services": "snaks",
-      "mobile": 89745621233
+      "mobile": 897456212331
     },
     {
       "id": 6,
@@ -58,15 +35,45 @@
       "email": "yourskitchen@eboyo.com",
       "services": "chai . snaks",
       "mobile": 67926941346
-    }
-  ],
-  "comments": [
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 8,
+      "name": "Nirmala",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "phone": "",
+      "email": "nirmala@eboyo.com",
+      "services": "chai, coffee",
+      "mobile": 8954745662
+    },
+    {
+      "id": 9,
+      "name": "Angular",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "phone": "",
+      "email": "sdfaf@gmail.com",
+      "services": "sdfaf@gmail.com",
+      "mobile": 136496463163
+    },
+    {
+      "id": 10,
+      "name": "react",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "phone": "",
+      "email": "sdfaf@gmail.com",
+      "services": "sdfaf@gmail.com",
+      "mobile": 9646413141
+    },
+    {
+      "id": 11,
+      "name": "new res",
+      "address": "GOBINDAPUR , KAILASHAHAR , UNAKOTI TRIPURA",
+      "phone": "",
+      "email": "sdfaf@gmail.com",
+      "services": "sdfwsf",
+      "mobile": 3191646494
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
