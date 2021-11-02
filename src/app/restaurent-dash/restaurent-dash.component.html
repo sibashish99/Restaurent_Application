@@ -3,8 +3,9 @@
    <div class="container-fluid">
      <h2>Restaurent Record App</h2>
      <div class="d-flex">
-      <button (click)="clickAddResto()" class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Restaurent</button>
-     </div>
+      <button (click)="clickAddResto()" class="btn btn-success" type="button" data-bs-toggle="modal" >Add Restaurent</button>
+      <button routerLink="/login" style="margin-left: 5px;" class="btn btn-danger" type="button" data-bs-toggle="modal">Log Out</button>
+    </div>
    </div>
 </nav>
 <div class="p-5 mb-4 bg-light rounded-3">
@@ -12,7 +13,7 @@
       <h1 class="display-5 fw-bold">Restaurent Records Management System</h1>
       <p class="col-md-8 fs-4"> You can save Records of Restaurent</p>
       <a class="btn btn-primary btn-lg" type="button" target="_blank" href="https://github.com/sibashish99/Restaurent_Application">Source Code</a>
-     </div>
+    </div>
 </div>
 <table class="table mt-4">
     <thead>

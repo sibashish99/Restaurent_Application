@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder ,ReactiveFormsModule } from '@angular/forms';
+import { FormGroup, FormBuilder  } from '@angular/forms';
 import { ApiService } from '../shared/api.service';
 import {RestaurentData} from './restaurent.model';
 
@@ -104,5 +104,8 @@ export class RestaurentDashComponent implements OnInit {
       this.getAllData();
 
     })
+    
   }
+
+  
 }
