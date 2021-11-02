@@ -7,18 +7,18 @@
                     <h1>Login</h1>
                     <h5>You can login here!</h5>
                 </div>
-                <form>
+                <form [formGroup]="loginForm" (ngSubmit)="logIn()"> 
                     <div class="mb-3">
                       <label class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
+                      <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address">
                     </div>
                     <div class="mb-3">
                       <label class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+                      <input  formControlName="password"  type="password" class="form-control" id="exampleInputPassword1">
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                   </form>
-                  <a routerLink="/signup">New User? Click to Sign up</a>
+                  <a style="color: blue; margin-top: 10px;" routerLink="/signup">New User? Click to Sign up</a>
 
             </div>
         </div>

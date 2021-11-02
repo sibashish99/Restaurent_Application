@@ -7,26 +7,26 @@
                     <h1>Sign Up</h1>
                     <h5>You can Sign Up here!</h5>
                 </div>
-                <form>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
                     <div class="mb-3">
                       <label class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email address">
+                      <input  formControlName="email" type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email address">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Name">
+                        <input formControlName="name"  type="text" class="form-control" id="exampleInputEmail1"  placeholder="Name">
                       </div>
                       <div class="mb-3">
                         <label class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" id="exampleInputEmail1"  placeholder="Phone">
+                        <input  formControlName="mobile"  type="number" class="form-control" id="exampleInputEmail1"  placeholder="Phone">
                       </div>
                     <div class="mb-3">
                       <label class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+                      <input formControlName="password"  type="password" class="form-control" id="exampleInputPassword1">
                     </div>
                     <button type="submit" class="btn btn-primary">sign up</button>
                   </form>
-                  <a routerLink="/login">Already User? Click to Login</a>
+                  <a style="color: blue; margin-top: 10px;" routerLink="/login">Already User? Click to Login</a>
 
             </div>
         </div>
